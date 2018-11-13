@@ -1,0 +1,212 @@
+.no-margin-left {
+  margin-left: 0px !important;
+}
+.chat-body > .chat-content > span{
+  font-size: 11px;
+  font-weight: 100;
+}
+.chat-body > .chat-content > p{
+  word-break: break-all;
+}
+
+.list-group-item-heading .username{
+  max-width: 100px;
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.list-group-item-text .messageString{
+  max-width: 150px;
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ft-check{
+  top: -4px;
+  position: relative;
+  margin-right: 4px;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d8d8d8; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00b5b8; 
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00a0a2; 
+}
+
+.border-left-5
+{
+  border-left-width: 5px !important;
+}
+
+.media [class*="avatar-"] i {
+  width: 12px !important;
+  height: 12px !important;
+}
+.previousTag{
+  padding: 8px;
+  top: -3px;
+  position: relative;
+  border-radius: 13px;
+  background-color: #00b5b8;
+  color: white !important;
+}
+
+.ft-users-enlarged{
+  font-size:  175px;
+    text-align:  center;
+    display:  block;
+    color: #d5d8dd;
+}
+
+.noReqText{
+  text-align:  center;
+    font-size: 31px;
+    font-weight:  900;
+    font-family: "Comic Sans MS";
+    color: #cfd2d8;
+}
+
+.emptyChat{
+  text-align: center;
+  padding-top: 90px;
+  text-align: center;
+  padding-top: 90px;
+  opacity: 0.3;
+}
+
+.emptyChat i{
+  font-size: 200px;
+}
+
+.emptyChat p{
+  font-size: 31px;
+  font-weight:  900;
+  font-family: "Comic Sans MS";
+}
+
+.emoji-mart-preview{
+  display: none;
+}
+
+.emojiPickerBtn{
+  right: 17px !important;
+  background: transparent;
+  border: transparent;
+  font-size: 21px;
+  color: #778093;
+  outline: none;
+}
+
+.emoji-mart .emoji-mart-emoji {
+  padding: 2px !important;
+}
+
+.fileSelectBtn{
+  right: 51px !important;
+  color: #778093;
+  font-size: 21px;
+}
+
+.fileSelectBtn > input{
+  position: absolute;
+  left: 0px;
+  overflow: hidden;
+  width: 35px;
+  height: 35px;
+  opacity: 0;
+  z-index: 999999999999;
+}
+
+.fileSelectBtn,.emojiPickerBtn{
+  top: 2px !important;
+}
+
+.hover:hover{
+  background: #efefef;
+}
+
+.noselect * {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.emoji-mart-anchor-selected{
+  color: #00b5b8 !important;
+}
+.emoji-mart-anchor-bar{
+  background-color: #00b5b8 !important;
+}
+
+.chat-application .chat-app-form {
+  padding: 10px !important;
+}
+
+.uploadedFiles{
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+.uploadedFiles > div{    
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+}
+
+.uploadedFiles img{
+  width: 60px;
+  padding: 0.15rem;
+}
+
+.uploadedFiles > div > i.fa-times{    
+  position: absolute;
+  top: -6px;
+  right: -4px;
+  color: #009c9f;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.messageFiles{
+  margin: 5px 0px;
+}
+
+.messageFiles > a > img {
+  width: 60px;
+}
+
+.ReactModalPortal{
+  z-index: 1031 !important;
+}
+
+.fixed-top {
+  z-index: 1000 !important;
+}
+
+.chat-app-form{
+  overflow: visible !important;
+  position: fixed !important;
+  bottom: 0;
+  width: 826px;
+}
